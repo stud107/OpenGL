@@ -1,0 +1,1 @@
+/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/OpenGLProva.dir/main.cpp.o CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o  -o OpenGLProva.exe -Wl,--out-implib,libOpenGLProva.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
