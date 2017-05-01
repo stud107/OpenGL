@@ -4,17 +4,7 @@
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: ../Includes/shader.cpp
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: ../Includes/shader.h
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: ../Includes/utils.h
-CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/include/GL/glew.h
-CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/gl.h
-CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/glext.h
-CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/glu.h
-CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/glut.h
 
 CMakeFiles/OpenGLProva.dir/main.cpp.o: ../Includes/shader.h
 CMakeFiles/OpenGLProva.dir/main.cpp.o: ../main.cpp
-CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/include/GL/glew.h
-CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/gl.h
-CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/glext.h
-CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/glu.h
-CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/OpenGL\ Drivers/compiler\ needs/include/GL/glut.h
 

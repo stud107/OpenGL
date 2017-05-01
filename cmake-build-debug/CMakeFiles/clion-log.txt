@@ -1,4 +1,5 @@
-C:\Users\Davide\.CLion2017.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cloud/CLionProjects/OpenGLProva/OpenGLProva
+-- WARNING: you are using the obsolete 'GLU' package, please use 'OpenGL' instead
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug
+-- Build files have been written to: /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug

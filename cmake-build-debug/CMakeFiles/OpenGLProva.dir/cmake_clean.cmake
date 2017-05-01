@@ -2,8 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/OpenGLProva.dir/main.cpp.o"
   "CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o"
   "OpenGLProva.pdb"
-  "OpenGLProva.exe"
-  "libOpenGLProva.dll.a"
+  "OpenGLProva"
 )
 
 # Per-language clean rules from dependency scanning.

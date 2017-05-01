@@ -1,3 +1,3 @@
-/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug/CMakeFiles/OpenGLProva.dir
+/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug/CMakeFiles/OpenGLProva.dir

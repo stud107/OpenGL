@@ -10,6 +10,8 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
 #include <GL/glext.h>
+#include <iostream>
+
 #endif
 
 #include "Includes/shader.h"
@@ -29,8 +31,10 @@ GLuint LoadTexture(const char* filename, int width, int heigth) {
     // The following code will read in our RAW file.
     file = fopen(filename, "rb");
 
-    if (file == NULL)
+    if (file == NULL) {
+        std::cerr << "Texture not found!" << std::endl;
         return 0;
+    }
 
     data = (unsigned char *)malloc(width * heigth * 3);
     fread(data, width * heigth * 3, 1, file);
@@ -71,9 +75,9 @@ void init(void) {
     glDepthFunc(GL_LESS);
 
     //shader.init("shader.vert", "shader.frag");
-    shader = new Shader("shader.vert", "shader.frag");
-
-    texture = LoadTexture("C:\\Users\\Davide\\Pictures\\Prova.tiff", 256, 256);
+    shader = new Shader("../shader.vert", "../shader.frag");
+    // "/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Resources/Texture/Ball-256x256.bmp"
+    texture = LoadTexture("../Resources/Texture/Ball-256x256.bmp", 256, 256);
 }
 
 void my_object(void) {
@@ -87,8 +91,8 @@ void my_object(void) {
     glBindTexture(GL_TEXTURE_2D, texture);
 
     //glutWireCube(2);
-    glutSolidCube(3);
-    //glutSolidTeapot(4.0);
+    //glutSolidCube(3);
+    glutSolidTeapot(4.0);
 }
 
 void display(void) {

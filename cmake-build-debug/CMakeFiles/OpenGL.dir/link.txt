@@ -1,1 +1,0 @@
-/usr/bin/c++.exe  -g  -Wl,--enable-auto-import CMakeFiles/OpenGL.dir/main.cpp.o CMakeFiles/OpenGL.dir/Includes/shader.cpp.o  -o OpenGL.exe -Wl,--out-implib,libOpenGL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/lib/Release/Win32/glew32.lib C:/Documents/GLFW/glfw-3.2.1_build/lib-mingw-w64/libglfw3.a 
