@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/shader.cpp
+/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/shader.cpp
 cstring
 -
 shader.h
-/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/shader.h
+/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/shader.h
 utils.h
-/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/utils.h
+/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/utils.h
 
-/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/shader.h
+/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/shader.h
 stdlib.h
 -
 OpenGL/gl.h
@@ -36,11 +36,11 @@ GL/glext.h
 string
 -
 
-/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/utils.h
+/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/utils.h
 iostream
 -
 
-/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/main.cpp
+/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/main.cpp
 stdlib.h
 -
 OpenGL/gl.h
@@ -49,18 +49,48 @@ GLUT/glut.h
 -
 OpenGL/glext.h
 -
-stdlib.h
--
-GL/glew.h
--
-GL/gl.h
--
-GL/glut.h
--
-GL/glext.h
--
 iostream
 -
 Includes/shader.h
-/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/shader.h
+/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/shader.h
+
+C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+Availability.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+C:/Documents/freeglut/include/GL/freeglut_std.h
+windows.h
+-
+EGL/egl.h
+-
+GLES/gl.h
+-
+GLES2/gl2.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+stdlib.h
+-
+
+C:/Documents/freeglut/include/GL/glut.h
+freeglut_std.h
+C:/Documents/freeglut/include/GL/freeglut_std.h
 

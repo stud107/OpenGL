@@ -1,5 +1,14 @@
 #pragma once
 
+
+#ifndef CALLBACK
+#if defined(_ARM_)
+#define CALLBACK
+#else
+#define CALLBACK __stdcall
+#endif
+#endif
+
 #if (defined(__MACH__)) && (defined(__APPLE__))
 #include <stdlib.h>
 #include <OpenGL/gl.h>

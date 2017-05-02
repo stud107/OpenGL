@@ -1,17 +1,17 @@
 
+
 #if ( (defined(__MACH__)) && (defined(__APPLE__)) )
 #include <stdlib.h>
 #include <OpenGL/gl.h>
 #include <GLUT/glut.h>
 #include <OpenGL/glext.h>
 #else
-#include <stdlib.h>
-#include <GL/glew.h>
-#include <GL/gl.h>
-#include <GL/glut.h>
-#include <GL/glext.h>
+//#include <stdlib.h>
+//#include <GL/glew.h>
+//#include <GL/gl.h>
+//#include <GL/glut.h>
+//#include <GL/glext.h>
 #include <iostream>
-
 #endif
 
 #include "Includes/shader.h"
@@ -118,6 +118,7 @@ void reshape(int w, int h) {
 }
 
 int main(int argc, char **argv) {
+    std::cout << "This is a test!";
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH); //set up the double buffering
     glutInitWindowSize(500, 500);
@@ -127,7 +128,8 @@ int main(int argc, char **argv) {
     glutDisplayFunc(display);
     glutIdleFunc(display);
 
-    glewInit();	/// Extremely important.
+    /// Extremely important.
+    glewInit();
 
     glutReshapeFunc(reshape);
 

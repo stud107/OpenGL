@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/Davide/.CLion2017.1/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /cygdrive/c/Users/Davide/.CLion2017.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cloud/CLionProjects/OpenGLProva/OpenGLProva
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenGLProva.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/OpenGLProva.dir/flags.make
 
 CMakeFiles/OpenGLProva.dir/main.cpp.o: CMakeFiles/OpenGLProva.dir/flags.make
 CMakeFiles/OpenGLProva.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLProva.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLProva.dir/main.cpp.o -c /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGLProva.dir/main.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLProva.dir/main.cpp.o -c /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/main.cpp
 
 CMakeFiles/OpenGLProva.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLProva.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/main.cpp > CMakeFiles/OpenGLProva.dir/main.cpp.i
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/main.cpp > CMakeFiles/OpenGLProva.dir/main.cpp.i
 
 CMakeFiles/OpenGLProva.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLProva.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/main.cpp -o CMakeFiles/OpenGLProva.dir/main.cpp.s
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/main.cpp -o CMakeFiles/OpenGLProva.dir/main.cpp.s
 
 CMakeFiles/OpenGLProva.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/OpenGLProva.dir/main.cpp.o.provides.build: CMakeFiles/OpenGLProva.dir
 
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: CMakeFiles/OpenGLProva.dir/flags.make
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: ../Includes/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o -c /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o -c /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/shader.cpp
 
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/shader.cpp > CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.i
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/shader.cpp > CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.i
 
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/Includes/shader.cpp -o CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.s
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/Includes/shader.cpp -o CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.s
 
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o.requires:
 
@@ -113,28 +113,26 @@ OpenGLProva_OBJECTS = \
 # External object files for target OpenGLProva
 OpenGLProva_EXTERNAL_OBJECTS =
 
-OpenGLProva: CMakeFiles/OpenGLProva.dir/main.cpp.o
-OpenGLProva: CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o
-OpenGLProva: CMakeFiles/OpenGLProva.dir/build.make
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libGL.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libGLEW.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libglut.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libXmu.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libXi.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libGLU.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libGL.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libGLU.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libGL.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libGLEW.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libglut.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libXmu.so
-OpenGLProva: /usr/lib/x86_64-linux-gnu/libXi.so
-OpenGLProva: CMakeFiles/OpenGLProva.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGLProva"
+OpenGLProva.exe: CMakeFiles/OpenGLProva.dir/main.cpp.o
+OpenGLProva.exe: CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o
+OpenGLProva.exe: CMakeFiles/OpenGLProva.dir/build.make
+OpenGLProva.exe: /usr/lib/w32api/libopengl32.a
+OpenGLProva.exe: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/lib/Release/x64/glew32s.lib
+OpenGLProva.exe: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/lib/Release/x64/glew32.lib
+OpenGLProva.exe: C:/Documents/freeglut_MinGW/lib/x64/libfreeglut.a
+OpenGLProva.exe: /usr/lib/w32api/libglu32.a
+OpenGLProva.exe: /usr/lib/w32api/libopengl32.a
+OpenGLProva.exe: /usr/lib/w32api/libglu32.a
+OpenGLProva.exe: /usr/lib/w32api/libopengl32.a
+OpenGLProva.exe: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/lib/Release/x64/glew32s.lib
+OpenGLProva.exe: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/lib/Release/x64/glew32.lib
+OpenGLProva.exe: C:/Documents/freeglut_MinGW/lib/x64/libfreeglut.a
+OpenGLProva.exe: CMakeFiles/OpenGLProva.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable OpenGLProva.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLProva.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/OpenGLProva.dir/build: OpenGLProva
+CMakeFiles/OpenGLProva.dir/build: OpenGLProva.exe
 
 .PHONY : CMakeFiles/OpenGLProva.dir/build
 
@@ -148,6 +146,6 @@ CMakeFiles/OpenGLProva.dir/clean:
 .PHONY : CMakeFiles/OpenGLProva.dir/clean
 
 CMakeFiles/OpenGLProva.dir/depend:
-	cd /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cloud/CLionProjects/OpenGLProva/OpenGLProva /home/cloud/CLionProjects/OpenGLProva/OpenGLProva /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug /home/cloud/CLionProjects/OpenGLProva/OpenGLProva/cmake-build-debug/CMakeFiles/OpenGLProva.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva/cmake-build-debug/CMakeFiles/OpenGLProva.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OpenGLProva.dir/depend
 

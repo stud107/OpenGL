@@ -4,7 +4,13 @@
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: ../Includes/shader.cpp
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: ../Includes/shader.h
 CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: ../Includes/utils.h
+CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/include/GL/glew.h
+CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/freeglut/include/GL/freeglut_std.h
+CMakeFiles/OpenGLProva.dir/Includes/shader.cpp.o: C:/Documents/freeglut/include/GL/glut.h
 
 CMakeFiles/OpenGLProva.dir/main.cpp.o: ../Includes/shader.h
 CMakeFiles/OpenGLProva.dir/main.cpp.o: ../main.cpp
+CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/include/GL/glew.h
+CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/freeglut/include/GL/freeglut_std.h
+CMakeFiles/OpenGLProva.dir/main.cpp.o: C:/Documents/freeglut/include/GL/glut.h
 
