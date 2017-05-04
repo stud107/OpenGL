@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 # SET ------
 set(GLUT_INCLUDE_DIR C:/Documents/freeglut/include)
 set(GLUT_glut_LIBRARY C:/Documents/freeglut_MinGW/lib/x64)
+#set(GLUT_glut_LIBRARY C:/Documents/freeglut/lib/x64)
 set(GLEW_INCLUDE_DIR C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/include)
 set(GLEW_LIBRARY C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/lib/Release/x64)
 

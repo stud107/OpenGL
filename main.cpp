@@ -1,5 +1,3 @@
-
-
 #if ( (defined(__MACH__)) && (defined(__APPLE__)) )
 #include <stdlib.h>
 #include <OpenGL/gl.h>

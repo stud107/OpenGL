@@ -1,5 +1,5 @@
 C:\Users\Davide\.CLion2017.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Davide/Documents/CLion/OpenGLProva
--- Found GLEW: C:/Documents/GLEW/glew-2.0.0-win32/glew-2.0.0/include  
+-- Found GLUT: C:/Documents/freeglut_MinGW/lib/x64  
 -- WARNING: you are using the obsolete 'GLU' package, please use 'OpenGL' instead
 -- Configuring done
 -- Generating done

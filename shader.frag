@@ -1,5 +1,3 @@
-#version 130
-
 uniform sampler2D color_texture;
 
 void main() {
